@@ -1,23 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema de Assinatura</title>
+
+    <style>
+        body {
+            background-color: #F5F5F5;
+        }
+
+        .container {
+            background-color: #E9E9E9;
+            margin: auto;
+            width: 600px;
+        }
+
+        .header {
+            padding: 20px;
+        }
+
+        .flex-container {
+            display: flex;
+        }
+
+        .container1 {
+            background-color: #006D6D;
+        }
+
+        .container2 {
+            background-color: #00908F;
+        }
+    </style>
+
+
 </head>
+
 <body>
-    <div>
-        <div>
+    <div class="container">
+        <div class="header">
             primeira linha
         </div>
-        <div>
-            <div>
-                coluna 1 
+        <div class="flex-container">
+            <div class="container1">
+                coluna 1
             </div>
-            <div>
-                coluna 2 
+            <div class="container2">
+                coluna 2
             </div>
         </div>
     </div>
 </body>
+
 </html>
